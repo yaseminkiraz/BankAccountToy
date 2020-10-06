@@ -236,7 +236,7 @@ mvn clean verify
 		``` psql -h localhost -U postgres -d postgres -c "CREATE DATABASE bankaccounttoy;"```
 	
 	
-		``` psql -h localhost -U postgres -d bankaccounttoy -c "CREATE SCHEMA app;"```
+		``` psql -h localhost -U postgres -d bankaccounttoy -c "CREATE SCHEMA test;"```
 	
 	
 - ``` mvn clean verify ``` build and run all unit tests
